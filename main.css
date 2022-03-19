@@ -1,0 +1,62 @@
+/* reset  */
+*, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+
+/* HEADER & NAV  */
+header {
+  background-color: black;
+  padding: 10px;
+  color: white;
+}
+
+header > nav > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+header > nav > ul > li {
+  width: 100px;
+  text-align: center;
+}
+
+header > nav > ul > li a {
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+}
+
+header > nav > ul > li a:hover {
+  background-color: gray;
+}
+
+/* MAIN  */
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row wrap;
+}
+
+/* SECTION  */
+section {
+  background-color: bisque;
+  padding: 40px 10px;
+  margin: 30px 0px;
+}
+.js-section {
+  background-color: brown;
+}
+.css-section {
+  background-color: green;
+}
+.html-section {
+  background-color: pink;
+}
